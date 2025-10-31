@@ -1,1 +1,178 @@
-<!DOCTYPE html><html><head><title>Компьютер</title></head><body><h1>Компьютер — ремонт и обслуживание</h1></body></html>
+## index.html
+
+```html
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Компьютер — ремонт и обслуживание ПК, Волгоград</title>
+  <meta name="description" content="Ремонт ноутбуков и ПК в Волгограде — сборка, чистка, модернизация, установка ОС, обновление драйверов и защита антивирусом. Быстро, профессионально.">
+  <link rel="icon" href="/public/logo.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <meta name="robots" content="index, follow">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Компьютер — ремонт и обслуживание ПК, Волгоград">
+  <meta property="og:description" content="Сборка, чистка, модернизация, ремонт ноутбуков и ПК. Адрес: г. Волгоград, ул. Канунникова 9, оф.1012">
+  <meta property="og:image" content="/public/hero1.svg">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/">
+        <img src="/public/logo.png" alt="Компьютер - логотип" width="56" height="56">
+        <span class="company-name">Компьютер</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#home">Главная</a>
+        <a href="#services">Услуги</a>
+        <a href="#partners">Партнёры</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="contacts">
+        <a href="tel:+78442931958">8 (8442) 931958</a>
+        <a href="tel:+7931339">931359</a>
+      </div>
+
+      <button class="menu-toggle" aria-label="Меню">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1>Ремонт и обслуживание компьютеров и ноутбуков в Волгограде</h1>
+          <p class="lead">Быстрое диагностирование, качественный ремонт и сборка. Гарантия на работы и комплектующие.</p>
+          <a class="btn primary" href="#contacts">Оставить заявку</a>
+        </div>
+        <div class="hero-right">
+          <!-- Комикс-иллюстрации: 3 кадра -->
+          <div class="comic-frames">
+            <img src="/public/hero1.svg" alt="Клиент приносит оборудование" loading="lazy">
+            <img src="/public/hero2.svg" alt="Процесс ремонта" loading="lazy">
+            <img src="/public/hero3.svg" alt="Клиент забирает исправленное оборудование" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Наши услуги</h2>
+        <p class="subtitle">Выполняем широкий спектр работ — от чистки до полной сборки под ключ.</p>
+        <div class="services-grid">
+          <a class="service-card" href="/services/assembly.html">
+            <h3>Сборка компьютера</h3>
+            <p>Подбор комплектующих, сборка рабочей станции или игрового ПК.</p>
+          </a>
+
+          <a class="service-card" href="/services/cleaning.html">
+            <h3>Чистка и модернизация ноутбуков</h3>
+            <p>Удаление пыли, замена термопасты, апгрейд оперативной памяти и SSD.</p>
+          </a>
+
+          <a class="service-card" href="/services/repair.html">
+            <h3>Ремонт ноутбуков</h3>
+            <p>Диагностика и ремонт материнских плат, экранов и разъёмов.</p>
+          </a>
+
+          <a class="service-card" href="/services/os.html">
+            <h3>Установка и настройка ОС</h3>
+            <p>Установка Windows/Linux, настройка программ и резервного копирования.</p>
+          </a>
+
+          <a class="service-card" href="/services/drivers.html">
+            <h3>Обновление драйверов</h3>
+            <p>Подбор и установка актуальных драйверов для стабильной работы.</p>
+          </a>
+
+          <a class="service-card" href="/services/antivirus.html">
+            <h3>Установка антивируса</h3>
+            <p>Подбор и настройка антивирусного ПО, удаление вредоносных программ.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERS -->
+    <section id="partners" class="partners">
+      <div class="container">
+        <h2>Партнёры</h2>
+        <div class="partner-card">
+          <div class="partner-info">
+            <h3>NIX Moscow</h3>
+            <p>Официальное сотрудничество по поставкам комплектующих и оперативной логистике.</p>
+            <p><a href="https://www.nix.ru" target="_blank" rel="noopener">Перейти на сайт партнёра (nix.ru)</a></p>
+          </div>
+          <div class="partner-actions">
+            <a class="btn" href="#contacts">Заказать комплектующие</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section id="contacts" class="contacts-section">
+      <div class="container">
+        <h2>Контакты</h2>
+        <div class="contacts-grid">
+          <div class="contact-card">
+            <h3>Контактная информация</h3>
+            <p>Адрес: г.Волгоград, ул. Канунникова 9, оф.1012</p>
+            <p>Телефон: <a href="tel:+78442931958">8 (8442) 931958</a>, 931359</p>
+            <p>E-mail: <a href="mailto:info@computer34.ru">info@computer34.ru</a></p>
+            <p>Сайт: <a href="https://computer34.ru">computer34.ru</a></p>
+            <p>Часы работы: пн-пт 9:00–17:00, сб-вс — выходные</p>
+          </div>
+
+          <div class="contact-card">
+            <h3>Оставить заявку</h3>
+            <!-- Formspree example -->
+            <form id="contactForm" action="https://formspree.io/f/yourformid" method="POST">
+              <label>Имя<br><input type="text" name="name" required></label>
+              <label>Телефон<br><input type="tel" name="phone" required></label>
+              <label>Сообщение<br><textarea name="message" rows="4"></textarea></label>
+              <button class="btn primary" type="submit">Отправить</button>
+            </form>
+            <p class="small">Или позвоните: <a href="tel:+78442931958">8 (8442) 931958</a></p>
+          </div>
+        </div>
+
+        <div class="map">
+          <h3>Как нас найти</h3>
+          <!-- Google Maps embed by address (replace API-free iframe) -->
+          <iframe
+            src="https://www.google.com/maps?q=г.Волгоград,+ул.+Канунникова+9&output=embed"
+            width="100%" height="360" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          <div class="directions">
+            <h4>Проезд и парковка</h4>
+            <p>Проход для клиентов на первом этаже. Около здания есть платная уличная парковка (обычно свободные места рядом с офисными площадями). Рекомендуем приезжать в будние дни до 16:30.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Компьютер</strong> — г.Волгоград, ул. Канунникова 9, оф.1012
+      </div>
+      <div>
+        <a href="mailto:info@computer34.ru">info@computer34.ru</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
+```
